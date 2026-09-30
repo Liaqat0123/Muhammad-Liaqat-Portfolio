@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Liaqat — Data Analyst &amp; Python Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="curtain" id="curtain"><span>LOADING PORTFOLIO…</span></div>
+
+<div class="bg-grid" id="bgGrid"></div>
+<div class="blob blob1"></div>
+<div class="blob blob2"></div>
+
+<div class="shell">
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="sidebar">
+    <a href="#top" class="sb-mark">Liaqat<span>.</span>dev</a>
+
+    <nav class="sb-nav" id="sbnav">
+      <a href="#summary" class="active"><span class="idx">01</span>Summary</a>
+      <a href="#skills"><span class="idx">02</span>Skills</a>
+      <a href="#datanova"><span class="idx">03</span>DataNova</a>
+      <a href="#projects"><span class="idx">04</span>Projects</a>
+      <a href="#experience"><span class="idx">05</span>Experience</a>
+      <a href="#education"><span class="idx">06</span>Education</a>
+      <a href="#contact"><span class="idx">07</span>Contact</a>
+    </nav>
+
+    <div class="nav-right">
+      <span class="nav-avail">AVAILABLE FOR DATA ANALYST / BI ROLES</span>
+      <a class="btn primary magnetic" href="mailto:liaqatcsiub@gmail.com">Email me</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </header>
+
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="#summary"><span class="idx">01</span>Summary</a>
+    <a href="#skills"><span class="idx">02</span>Skills</a>
+    <a href="#datanova"><span class="idx">03</span>DataNova</a>
+    <a href="#projects"><span class="idx">04</span>Projects</a>
+    <a href="#experience"><span class="idx">05</span>Experience</a>
+    <a href="#education"><span class="idx">06</span>Education</a>
+    <a href="#contact"><span class="idx">07</span>Contact</a>
+    <div class="mm-contact">
+      <a href="mailto:liaqatcsiub@gmail.com">liaqatcsiub@gmail.com</a>
+      <a href="tel:+923091798936">+92 309 1798936</a>
+      <a href="#">Bahawalpur, Pakistan</a>
+    </div>
+  </nav>
+
+  <!-- CONTENT -->
+  <div class="content">
+    <div class="wrap">
+
+      <!-- HERO -->
+      <section class="hero" id="top">
+        <div class="hero-grid">
+          <div>
+            <h1 class="title reveal-load" style="animation-delay:.15s">Turning messy data into decisions.</h1>
+            <p class="hero-sub reveal-load" style="animation-delay:.32s">Hi, I'm Muhammad Liaqat — a Data Analyst and Python developer working across SQL, Power BI, and the Python data stack. I build tools that ship, not just demos.</p>
+            <div class="typing-line reveal-load" style="animation-delay:.48s"><span id="typeText"></span><span class="cursor-blink">|</span></div>
+            <div class="hero-actions reveal-load" style="animation-delay:.62s">
+              <a class="btn primary magnetic" href="mailto:liaqatcsiub@gmail.com">Email me</a>
+              <a class="btn ghost magnetic" href="#datanova">See DataNova →</a>
+            </div>
+          </div>
+          <div class="hero-avatar reveal-load" id="heroAvatar" style="animation-delay:.4s">
+            <img src="assets/profile.png" alt="Muhammad Liaqat">
+          </div>
+        </div>
+
+        <div class="counter-row">
+          <div class="counter-item reveal reveal-delay-1"><div class="counter-num" data-target="2">0</div><div class="counter-label">INTERNSHIPS</div></div>
+          <div class="counter-item reveal reveal-delay-2"><div class="counter-num" data-target="1">0</div><div class="counter-label">FLAGSHIP PRODUCT</div></div>
+          <div class="counter-item reveal reveal-delay-3"><div class="counter-num" data-target="4">0</div><div class="counter-label">PROJECTS BUILT</div></div>
+          <div class="counter-item reveal reveal-delay-4"><div class="counter-num" data-target="6">0</div><div class="counter-label">CERTIFICATIONS</div></div>
+        </div>
+      </section>
+
+      <!-- SUMMARY -->
+      <section id="summary">
+        <div class="section-eyebrow reveal">01 — Summary</div>
+        <h2 class="section-title reveal">What I do</h2>
+        <div class="summary-text reveal">
+          <p>I'm a Data Analyst and Python developer working across SQL, Power BI, Excel, and the Python data
+          stack — Pandas, NumPy, Matplotlib, and Seaborn. My biggest build so far is <strong style="color:var(--text)">DataNova</strong>,
+          a desktop data-analysis platform that handles cleaning, statistical analysis, and business reporting
+          from one place, built and shipped end to end.</p>
+          <p>Alongside that, I've completed two data analytics internships delivering dashboards, exploratory
+          analysis, and sentiment-analysis projects. I'm comfortable taking raw, inconsistent data and turning
+          it into something a business can actually act on — and I'm currently building deeper BI, AI/ML, and
+          cloud fundamentals to go with it.</p>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <div class="section-eyebrow reveal">02 — Skills</div>
+        <h2 class="section-title reveal">Technical toolkit</h2>
+
+        <div class="marquee reveal">
+          <div class="marquee-track" id="track1"></div>
+        </div>
+        <div class="marquee reveal">
+          <div class="marquee-track reverse" id="track2"></div>
+        </div>
+
+        <div class="progress-wrap">
+          <div class="progress-item reveal">
+            <div class="p-head"><span class="pname">Python (Pandas / NumPy)</span><span class="pval">90%</span></div>
+            <div class="progress-track"><div class="progress-fill" data-width="90"></div></div>
+          </div>
+          <div class="progress-item reveal">
+            <div class="p-head"><span class="pname">SQL</span><span class="pval">85%</span></div>
+            <div class="progress-track"><div class="progress-fill" data-width="85"></div></div>
+          </div>
+          <div class="progress-item reveal">
+            <div class="p-head"><span class="pname">Power BI (DAX / Power Query)</span><span class="pval">88%</span></div>
+            <div class="progress-track"><div class="progress-fill" data-width="88"></div></div>
+          </div>
+          <div class="progress-item reveal">
+            <div class="p-head"><span class="pname">Excel</span><span class="pval">90%</span></div>
+            <div class="progress-track"><div class="progress-fill" data-width="90"></div></div>
+          </div>
+          <div class="progress-item reveal">
+            <div class="p-head"><span class="pname">Data Cleaning &amp; EDA</span><span class="pval">92%</span></div>
+            <div class="progress-track"><div class="progress-fill" data-width="92"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DATANOVA -->
+      <section id="datanova">
+        <div class="section-eyebrow reveal">03 — Flagship project</div>
+        <h2 class="section-title reveal">DataNova</h2>
+        <div class="flagship reveal">
+          <div class="flagship-inner">
+            <div class="flagship-top">
+              <div class="flagship-name">An ETL platform, on the desktop</div>
+              <div class="flagship-tag">SHIPPED</div>
+            </div>
+            <p class="flagship-desc">
+              A complete desktop product for turning raw CSV/Excel exports into decision-ready reports —
+              built from concept to working release, with light and dark themes and reusable report templates.
+            </p>
+            <div class="dn-chips">
+              <span class="dn-chip">Python</span>
+              <span class="dn-chip">Pandas</span>
+              <span class="dn-chip">Tkinter</span>
+              <span class="dn-chip">Matplotlib</span>
+              <span class="dn-chip">OpenPyXL</span>
+              <span class="dn-chip">ReportLab</span>
+            </div>
+
+            <div class="dn-body">
+              <div class="dn-steps">
+                <div class="dn-step">
+                  <div class="dn-step-num">1</div>
+                  <div class="dn-step-body">
+                    <div class="dn-step-title">Extract</div>
+                    <div class="dn-step-desc">Pulls in raw CSV / Excel exports from any source folder.</div>
+                  </div>
+                </div>
+                <div class="dn-step">
+                  <div class="dn-step-num">2</div>
+                  <div class="dn-step-body">
+                    <div class="dn-step-title">Profile &amp; clean</div>
+                    <div class="dn-step-desc">Automated profiling catches nulls, types, and outliers before analysis.</div>
+                  </div>
+                </div>
+                <div class="dn-step">
+                  <div class="dn-step-num">3</div>
+                  <div class="dn-step-body">
+                    <div class="dn-step-title">Analyze</div>
+                    <div class="dn-step-desc">Statistical, correlation, trend, and date-intelligence modules run automatically.</div>
+                  </div>
+                </div>
+                <div class="dn-step">
+                  <div class="dn-step-num">4</div>
+                  <div class="dn-step-body">
+                    <div class="dn-step-title">Dashboard</div>
+                    <div class="dn-step-desc">One click builds a live, themeable dashboard from the cleaned data.</div>
+                  </div>
+                </div>
+                <div class="dn-step">
+                  <div class="dn-step-num">5</div>
+                  <div class="dn-step-body">
+                    <div class="dn-step-title">Export report</div>
+                    <div class="dn-step-desc">Ships an executive report as PDF, Excel, CSV, or PNG — ready to send.</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="dn-visual">
+                <div class="dn-visual-bar">
+                  <span class="dn-visual-dot"></span><span class="dn-visual-dot"></span><span class="dn-visual-dot"></span>
+                  <span class="dn-visual-title">datanova — dashboard.exe</span>
+                </div>
+                <img src="assets/datanova-screenshot.png" alt="DataNova desktop data analysis platform — Data Quality screen" style="width:100%; height:auto; display:block;">
+              </div>
+            </div>
+
+            <div class="flagship-points">
+              <div class="fp-item">Built an ETL-style pipeline: extract raw data, transform through automated profiling and cleaning, load into dashboards and reports.</div>
+              <div class="fp-item">Engineered analytics modules for statistical, correlation, trend, and outlier analysis, plus automated date intelligence.</div>
+              <div class="fp-item">Automated one-click dashboard generation and executive report exports across PDF, Excel, CSV, and PNG.</div>
+              <div class="fp-item">Shipped with light/dark themes and reusable business-report templates — a full product, not a script.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS CAROUSEL -->
+      <section id="projects">
+        <div class="section-eyebrow reveal">04 — Other projects</div>
+        <h2 class="section-title reveal">More builds</h2>
+
+        <div class="carousel reveal zoom-reveal">
+          <div class="carousel-track-wrap">
+            <div class="carousel-track" id="carTrack">
+              <div class="car-slide tilt">
+                <div class="car-visual">
+                  <img src="assets/motorola-dashboard.png" alt="Motorola mobile sales Power BI dashboard">
+                  <div class="car-overlay"><span>POWER BI · DAX · POWER QUERY</span></div>
+                </div>
+                <div class="car-body">
+                  <div class="car-stack">POWER BI</div>
+                  <div class="car-name">Mobile Sales Dashboard</div>
+                  <div class="car-desc">Modeled sales data with DAX measures and Power Query to track total sales, transactions, and average sales.</div>
+                </div>
+              </div>
+              <div class="car-slide tilt">
+                <div class="car-visual">
+                  <img src="assets/hospital-dashboard.png" alt="Hospital emergency room dashboard">
+                  <div class="car-overlay"><span>EXCEL · POWER PIVOT</span></div>
+                </div>
+                <div class="car-body">
+                  <div class="car-stack">EXCEL</div>
+                  <div class="car-name">Hospital Emergency Room Dashboard</div>
+                  <div class="car-desc">Interactive Excel dashboard tracking patient admissions, wait times, satisfaction scores, and department referrals.</div>
+                </div>
+              </div>
+              <div class="car-slide tilt">
+                <div class="car-visual">
+                  <img src="assets/sales-dashboard.png" alt="Retail sales executive Power BI dashboard">
+                  <div class="car-overlay"><span>POWER BI · DAX</span></div>
+                </div>
+                <div class="car-body">
+                  <div class="car-stack">POWER BI</div>
+                  <div class="car-name">Retail Sales Executive Dashboard</div>
+                  <div class="car-desc">Multi-channel Power BI report tracking sales-executive targets, payment-method mix, and achievement trend across channels.</div>
+                </div>
+              </div>
+              <div class="car-slide tilt">
+                <div class="car-visual">
+                  <div class="mock">
+                    <div class="mini-dash">
+                      <div class="mini-dash-bar">
+                        <span class="mini-dash-dot"></span><span class="mini-dash-dot"></span><span class="mini-dash-dot"></span>
+                        <span class="mini-dash-title">sentiment_dashboard — reviews.csv</span>
+                      </div>
+                      <div class="mini-dash-body">
+                        <div class="mini-stat-row">
+                          <div class="mini-stat"><div class="mini-stat-label">REVIEWS ANALYZED</div><div class="mini-stat-value">3,240</div></div>
+                          <div class="mini-stat"><div class="mini-stat-label">AVG. POLARITY</div><div class="mini-stat-value">+0.42</div></div>
+                        </div>
+                        <div class="sentiment-mock">
+                          <div class="sm-donut"></div>
+                          <div class="sm-legend">
+                            <div class="sm-legend-row"><span class="dot pos"></span><span class="sm-row-label">Positive</span><div class="sm-bar-track"><div class="sm-bar-fill pos"></div></div><span>64%</span></div>
+                            <div class="sm-legend-row"><span class="dot neu"></span><span class="sm-row-label">Neutral</span><div class="sm-bar-track"><div class="sm-bar-fill neu"></div></div><span>22%</span></div>
+                            <div class="sm-legend-row"><span class="dot neg"></span><span class="sm-row-label">Negative</span><div class="sm-bar-track"><div class="sm-bar-fill neg"></div></div><span>14%</span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="car-overlay"><span>PYTHON · TEXTBLOB</span></div>
+                </div>
+                <div class="car-body">
+                  <div class="car-stack">PYTHON</div>
+                  <div class="car-name">Customer Sentiment Analysis</div>
+                  <div class="car-desc">Sentiment-classification pipeline built with TextBlob to analyze and categorize customer reviews.</div>
+                </div>
+              </div>
+              <div class="car-slide tilt">
+                <div class="car-visual">
+                  <div class="mock">
+                    <div class="mini-dash">
+                      <div class="mini-dash-bar">
+                        <span class="mini-dash-dot"></span><span class="mini-dash-dot"></span><span class="mini-dash-dot"></span>
+                        <span class="mini-dash-title">scraper_dashboard — shop.example.com</span>
+                      </div>
+                      <div class="mini-dash-body">
+                        <div class="mini-stat-row">
+                          <div class="mini-stat"><div class="mini-stat-label">PAGES SCRAPED</div><div class="mini-stat-value">128</div></div>
+                          <div class="mini-stat"><div class="mini-stat-label">ROWS EXTRACTED</div><div class="mini-stat-value">4,802</div></div>
+                          <div class="mini-stat"><div class="mini-stat-label">SUCCESS RATE</div><div class="mini-stat-value">99.2%</div></div>
+                        </div>
+                        <div class="scrape-progress">
+                          <span>78%</span>
+                          <div class="sp-track"><div class="sp-fill"></div></div>
+                          <span>128 / 164 pages</span>
+                        </div>
+                        <div class="term-body">
+                          <div class="term-line prompt">$ python scrape.py --source shop.example.com</div>
+                          <div class="term-line">→ page 127/164 fetched <span class="ok">200 OK</span></div>
+                          <div class="term-line">→ page 128/164 fetched <span class="ok">200 OK</span></div>
+                          <div class="term-line">→ parsed &amp; deduped rows → clean.csv</div>
+                          <div class="term-line blink">_</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="car-overlay"><span>PYTHON · BEAUTIFULSOUP</span></div>
+                </div>
+                <div class="car-body">
+                  <div class="car-stack">PYTHON</div>
+                  <div class="car-name">Web Scraping Automation</div>
+                  <div class="car-desc">Extracted website data with BeautifulSoup and transformed it into clean, analysis-ready CSV datasets.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="car-controls">
+            <div class="car-dots" id="carDots"></div>
+            <div class="car-arrows">
+              <button class="car-btn" id="carPrev" aria-label="Previous project">‹</button>
+              <button class="car-btn" id="carNext" aria-label="Next project">›</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience">
+        <div class="section-eyebrow reveal">05 — Experience</div>
+        <h2 class="section-title reveal">Where I've worked</h2>
+        <div class="timeline">
+          <div class="t-item">
+            <div class="t-role">Data Analyst Intern — DevelopersHub Corporation</div>
+            <div class="t-meta">Remote · Apr 28 – Jun 9, 2026 · 6 weeks</div>
+            <div class="t-desc">Cleaned and analyzed business datasets, built dashboards in Excel and Power BI, and generated recurring reports using SQL and Python.</div>
+          </div>
+          <div class="t-item">
+            <div class="t-role">Data Analyst Intern — CodeAlpha</div>
+            <div class="t-meta">Remote · Jul 2026 · 4 weeks</div>
+            <div class="t-desc">Delivered projects in web scraping, exploratory data analysis, and sentiment analysis using Python.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CAPSULE STAT ROW -->
+      <div class="wrap" style="padding:0;">
+        <div class="capsule-row">
+          <div class="capsule reveal reveal-delay-1">
+            <span class="c-num">02</span>
+            <span class="c-label">Data analytics internships completed remotely</span>
+            <span class="c-tag">EXPERIENCE</span>
+          </div>
+          <div class="capsule reveal reveal-delay-2">
+            <span class="c-num">01</span>
+            <span class="c-label">Flagship desktop product shipped end-to-end — DataNova</span>
+            <span class="c-tag">PRODUCT</span>
+          </div>
+          <div class="capsule reveal reveal-delay-3">
+            <span class="c-num">2027</span>
+            <span class="c-label">Expected graduation — BS Computer Science, Islamia University of Bahawalpur</span>
+            <span class="c-tag">EDUCATION</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <section id="education" style="border-top:none;">
+        <div class="section-eyebrow reveal">06 — Education &amp; certifications</div>
+        <h2 class="section-title reveal">Background</h2>
+        <div class="edu-line reveal"><strong>BS Computer Science</strong> — The Islamia University of Bahawalpur (2023 – 2027, Expected)</div>
+        <div class="cert-grid reveal">
+          <div class="cert-item"><span class="name">Data Analyst Internship Certificate</span><span class="org">DevelopersHub</span></div>
+          <div class="cert-item"><span class="name">Data Analytics Internship Certificate</span><span class="org">CodeAlpha</span></div>
+          <div class="cert-item"><span class="name">Power BI Mastery Course</span><span class="org">SkillCourse</span></div>
+          <div class="cert-item"><span class="name">AI &amp; Machine Learning Certificate</span><span class="org">NAVTTC</span></div>
+          <div class="cert-item"><span class="name">Microsoft Excel (Self-Learning)</span><span class="org">SkillCourse</span></div>
+          <div class="cert-item"><span class="name">Python Micro Course</span><span class="org">SkillCourse</span></div>
+        </div>
+        <a class="btn primary magnetic" style="margin-top:22px; display:inline-block;" href="https://drive.google.com/drive/folders/1zeJ2Yddzwym_5p0lIVXhV-jGnKTRfZG9" target="_blank" rel="noopener noreferrer">View Certificates ↗</a>
+      </section>
+
+      <!-- CONTACT / FOOTER -->
+      <section id="contact" class="contact-footer">
+        <div class="section-eyebrow reveal">07 — Contact</div>
+        <h2 class="section-title reveal">Let's talk data</h2>
+        <p class="cf-sub reveal">Open to Data Analyst and BI Analyst roles. Based in Bahawalpur, Pakistan — happy to work remote.</p>
+
+        <a class="cf-email-btn magnetic reveal" href="mailto:liaqatcsiub@gmail.com">liaqatcsiub@gmail.com</a>
+
+        <div class="cf-secondary reveal">
+          <a href="tel:+923091798936">+92 309 1798936</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+          <a href="#">DataNova Project</a>
+        </div>
+
+        <div class="cf-copy">Built by Muhammad Liaqat · Bahawalpur, Pakistan</div>
+      </section>
+
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
